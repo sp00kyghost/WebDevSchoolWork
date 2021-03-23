@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Lab 6, Shapes! :) </title>
+	</head>
+	<body>
+		<header>
+			<h1> Lab 6, Canvas and Shapes! </h1>
+		</header>
+		<canvas id ="canvas" width="500" height="500" style="border: 1px solid black;">
+		Oops this browser does not support HTML5!
+		</canvas>
+		<script>
+		var canvas = document.getElementById("canvas");
+		var canvas1 = canvas.getContext("2d");
+		canvas1.strokeStyle = 'green';
+		canvas1.strokeRect(75, 50, 350, 400);
+		</script>
+		<script>
+		var canvas = document.getElementById("canvas");
+		var canvas1 = canvas.getContext("2d");
+		canvas1.fillStyle = 'rgba(200,0,165,50)';
+		canvas1.moveTo(250,100);
+		canvas1.lineTo(175,250);
+		canvas1.lineTo(350,300);
+		canvas1.closePath();
+		canvas1.fill();
+		</script>
+	</body>
+</html>

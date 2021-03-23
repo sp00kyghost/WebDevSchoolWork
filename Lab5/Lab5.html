@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>!Lab 5!:)</title>
+	</head>
+	<style>
+		div {
+		margin-bottom: 30px;
+		}
+		label {
+			display: inline-block;
+			width: 125px;
+			text-align: right;
+			}
+		</style>
+	<body>
+		<h1>Practing with forms and boxes</h1>
+		<form name="form1" id="form1" action="mailto:sprevo3000@yahoo.com" method="post">
+			<div>
+			<label for="name">Enter your name :)</label>
+			<input type="text"  autofocus name="name" />
+			</div>
+			<div>
+			<label for="email">Enter your email:</label>
+			<input type="email" id="email" name="email" />
+			</div>
+			<div>
+			<label for="url">Enter a URL:</label>
+			<input type="url" id="url"  name="url"/>
+			</div>
+			<div>
+			<label for="range">Slide the circle!</label>
+			<input type="range" min="1" max="100" value="20">
+			</div>
+			<div>
+			<label for="number"> Choose a number from 1 - 1000 </label>
+			<input type="number" min="0" max="1000" value="0">
+			</div>
+			<div>
+			<label for="date"> Select the date! </label>
+			<input type="date" name="date"/>
+			</div>
+			<div>
+			<label for="time"> Select a time! :) </label>
+			<input type="time" name="time"/>
+			</div>
+		</form>
+		<button type="submit" form="form1" value="Submit">Submit Answers</button>
+	</body>
+</html>
