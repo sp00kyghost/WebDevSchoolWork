@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lab10:)</title>
+		<script language="javascript">
+			document.write ("Please select a button. One will greet you, the other is a nice picture.");
+		</script>
+		<script>
+			function hola(){
+				var str="Hola Amigo :)";
+				alert(str);
+				}
+			function niceBeach(){
+				document.body.background = "https://travelpassionate.com/wp-content/uploads/2018/12/Simos-beach-in-Elafonisos-island-in-Greece.-Elafonisos-is-a-small-Greek-island-min.jpg";
+				document.body.style.backgroundSize = "100%"
+				document.body.style.backgroundRepeat = "no-repeat"
+				var h1 = document.body.style.color = "orange"
+				var str= "Wish I was here right now..."
+				alert(str);
+				}
+		</script>
+		<style>
+			.firstbutton { padding: 15px;
+			}
+			.secondbutton { padding: 15px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>This is another great lab of ITSE-1311 :)</h1>
+		<div class="firstbutton">
+		<input type="button" onclick="hola()" value="..."/>
+		</div>
+		<div class="secondbutton">
+		<input type="button" onclick="niceBeach()" value="..."/>
+		</div>
+	</body>
+</html>
