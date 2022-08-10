@@ -1,1 +1,1 @@
-WebDev work. some HTML, basic stuff. some Java!
+WebDev work. some HTML, basic stuff. some Javascript!
